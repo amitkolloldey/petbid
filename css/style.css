@@ -1,0 +1,691 @@
+/* Default CSS */
+body,html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.pull-left{
+    float: left;
+}
+.pull-right{
+    float: right;
+}
+ul, li{
+    padding: 0;
+    margin: 0;
+}
+input{
+    outline: 0 !important;
+
+}
+/*****************************************Master *******************************************/
+/* Top Header */
+
+
+.pet-search .form-control {
+    float: left;
+}
+.btn.pet-search-btn {
+    float: right;
+}
+.input-group.pet-search {
+    width: 90%;
+}
+.pet-search .form-control {
+    width: 80%;
+}
+.row.top-header {
+    padding: 20px 0 0;
+}
+.top-header .col-md-4 {
+    margin: 0;
+    padding: 0;
+}
+.top-header .col-md-4 .input-group {
+    float: left;
+}
+.top-header .col-md-4 .input-group {
+    padding: 0 5px;
+    width: 33%;
+}
+.top-header h1 {
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+}
+.pet-search .form-control {
+    border-radius: 15px 0 0 15px;
+}
+.pet-search-btn {
+    border: 1px solid #cccccc;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+}
+.sign-in-form .form-control {
+    margin-bottom: 10px;
+}
+.checkbox > input {
+    bottom: 15px;
+    position: absolute;
+}
+.pet-signin-btn {
+    border: 1px solid;
+    float: left;
+    left: 9px;
+    padding: 6px 22px;
+    position: absolute;
+    border-color: #ccc;
+}
+.pet-remeber .form-control {
+    left: -48px;
+    position: absolute;
+    top: 33px;
+}
+.remember {
+    position: absolute;
+    right: 31px;
+    top: 44px;
+}
+/*Header Bottom*/
+#header-bottom {
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    padding: 5px 0;
+}
+#header-bottom .dropdown {
+    float: left;
+    width: 10%;
+}
+#header-bottom .list-inline.list-unstyle > li {
+    border-right: 2px none;
+    padding: 0 10px;
+}
+#header-bottom .list-inline.list-unstyle a {
+    text-decoration: underline;
+}
+
+#header-bottom .list-inline.list-unstyle {
+    margin-top: 5px;
+}
+.footer-top .list-unstyle.text-center > li {
+    list-style: outside none none;
+}
+
+
+/*Footer Bottom*/
+.footer-top{
+    border-bottom: 1px dashed;
+    border-top: 1px dashed;
+    padding: 20px 0;
+}
+.footer-top .col-md-6 {
+    float: right;
+    width: 40%;
+}
+.footer-top .input-group {
+    float: left;
+    margin-right: 5px;
+    width: 25%;
+}
+.footer-top textarea {
+    width: 42%;
+}
+.btn.pet-bid-btn {
+    display: block;
+    margin: 0 auto;
+}
+.btn.pet-bid-btn {
+    margin-top: 10px;
+    padding: 7px 25px;
+}
+ 
+ 
+ 
+ }
+
+
+/***************************************** Admin Page CSS *******************************************/
+/* Admin Panel Default CSS */
+
+.admin-btn.pull-right {
+    background: #6c6c6c none repeat scroll 0 0;
+    display: table;
+    margin-right: 20px;
+    padding: 5px 12px;
+}
+.admin-btn.pull-right a {
+    color: #fff;
+    display: table-cell;
+    vertical-align: middle;
+}
+.admin-btn.pull-right > p {
+    margin: 0;
+    padding: 0;
+}
+/* Admin Menu Manager CSS */
+.tree, .tree ul {
+    margin:0;
+    padding:0;
+}
+.tree ul {
+    margin-left:1em;
+    position:relative
+}
+.tree ul ul {
+    margin-left:.5em
+}
+.tree li {
+    margin:0;
+    padding:0 1em;
+    line-height:2em;
+    color:#369;
+    font-weight:700;
+    position:relative
+}
+.tree ul li:last-child:before {
+    background:#fff;
+    height:auto;
+    top:1em;
+    bottom:0
+}
+.indicator {
+    margin-right:5px;
+    color: #000;
+}
+.tree li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: normal;
+}
+.tree li button, .tree li button:active, .tree li button:focus {
+    text-decoration: none;
+    color:#369;
+    border:none;
+    background:transparent;
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    outline: 0;
+}
+
+/******************************* Admin Page Search/New Post/Blog CSS ********************************/
+
+.radio > p {
+    border-bottom: 1px solid;
+    display: inline-block;
+}
+
+.save-cancel a {
+    border: 1px solid #ccc;
+    color: #000;
+    padding: 6px 15px;
+}
+.admin-search .radio {
+    text-align: center;
+}
+.save-cancel {
+    text-align: center;
+    padding: 12px 0;
+}
+.save-cancel > li {
+    margin-right: 20px;
+}
+.save-cancel li {
+    padding: 0 15px;
+}
+.admin-search {
+    border: 1px solid #000;
+    padding: 20px 0 25px 9px;
+}
+.admin-search > p {
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+}
+
+
+/***************************************** Admin Post CSS *******************************************/
+
+.post-title > p {
+    float: left;
+    font-size: 20px;
+}
+.post-title .input-group.pet-search.pull-left {
+    float: left;
+    margin-left: 25px;
+    width: 50%;
+}
+.post-title {
+    padding: 20px 0 0;
+}
+#admin-menu-manager hr {
+    margin-top: 30px !important;
+}
+#btnwrap{
+    width: 100%;
+}
+.admin-post {
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+}
+.next-prev-indicator .list-inline.list-unstyle.pull-right > li {
+    border-left: 1px solid;
+}
+.next-prev-indicator .list-inline.list-unstyle.pull-right {
+    border: 1px solid;
+}
+td{
+    text-align: center;
+}
+th{
+    text-align: center;
+}
+.next-prev-indicator .list-inline.list-unstyle.pull-right {
+    margin-bottom: 10px;
+    margin-right: 9px;
+}
+
+/***************************************** Admin New Post CSS *******************************************/
+
+.post-title > a {
+    border: 1px solid #ccc;
+    padding: 8px 10px;
+}
+
+/***************************************** Admin Post View CSS *******************************************/
+#admin-post-view li {
+    list-style: outside none none;
+}
+#admin-post-view .form-control { 
+    margin-bottom: 10px; 
+}
+#admin-post-view .form > textarea {
+  width: 100%;
+}
+#admin-post-view-form #btnwrap{
+    text-align: center;
+}
+#admin-post-view-form .col-md-6.col-md-offset-3 textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#admin-post-view .col-md-6.col-md-offset-3 > img {
+  display: block;
+  margin: 0 auto;
+}
+
+/***************************************** Forget Password CSS *******************************************/
+#forget-password{
+    margin: 80px 0;
+}
+#forget-password .form-group{
+    margin: 30px 0 10px 10px;
+}
+
+/***************************************** Home CSS *******************************************/
+
+#home .banner img{
+    width: 100%;
+    height: 200px;
+}
+#home .category-list img{
+    margin-top: 20px;
+}
+
+#home .single-list{
+    margin: 30px 0;
+}
+#home .category-list{
+    margin-top: 15px;
+}
+#home .list-inline.list-unstyle.pull-right {
+    margin-right: 125px;
+    margin-top: 20px;
+    text-align: center;
+}
+#home .category-list {
+    border-right: 1px solid #ccc;
+}
+#home .category-list:last-child {
+    border-right: 0 solid #ccc !important;
+}
+
+
+/***************************************** New User CSS *******************************************/
+
+
+
+
+.pagination-link {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0 0 60px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+.pagination-link > li {
+    display: inline-block;
+}
+.pagination-link a {
+    background: #2b2b2b none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    padding: 10px 15px;
+    text-align: center;
+}
+.pagination-link a:hover {
+    background: #dddddd none repeat scroll 0 0;
+}
+.pagination-link .active a {
+    background: #dddddd none repeat scroll 0 0;
+}
+.pagination-link .active a:hover {
+    background: #2b2b2b;
+}
+
+a,a:hover{
+    font-weight: bold;
+    color: #0456A3;
+    text-decoration: none;
+}
+
+
+.pet_meta {
+    background: #eee none repeat scroll 0 0;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.pet_meta > span {
+    border-bottom: 1px solid;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+.blog-post-body > img {
+    height: 200px;
+    max-width: 100%;
+}
+article.blog-post.col-md-4 {
+    border: 1px solid #eee;
+    margin-bottom: 15px;
+}
+.blog-post-body {
+    padding: 15px 0;
+}
+ 
+.pet_bids > h2, .related > h2 {
+    background: #0356A3 none repeat scroll 0 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+}
+.related {
+    margin-top: 50px;
+}
+
+.col-md-12.single_bid {
+    border: 1px solid #eee;
+    padding: 10px;
+}
+.col-md-10.user_bid_details > span {
+    display: block;
+}
+
+.sign-in-form > a {
+    background: #0356a3 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 15px;
+    padding: 10px;
+    text-align: right;
+}
+.sign-in-form {
+    text-align: right;
+}
+
+.login-box {
+    margin: 100px 0;
+    padding: 10px;
+}
+.login-logo.text-center > a {
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.col-md-4.single-list {
+    background: #eee none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    margin: 50px 0;
+    padding: 15px;
+}
+.category-title h3 {
+    background: #0356a3 none repeat scroll 0 0;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+}
+section#header-bottom {
+    background: #0356a3 none repeat scroll 0 0;
+    color: #fff;
+}
+#header-bottom .list-inline.list-unstyle a {
+    color: #fff;
+    text-decoration: none;
+}
+footer.footer {
+    background: #0356a3 none repeat scroll 0 0;
+    color: #fff;
+}
+.search-form .form-control {
+    border: 1px solid #0356a3;
+    border-radius: 0;
+}
+.search-form .btn.btn-default {
+    background: #0356a3 none repeat scroll 0 0;
+    border: 1px solid #0356a3;
+    border-radius: 0;
+    color: #fff;
+}
+.sign-in-form > a {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+.footer h2 {
+    border-bottom: 1px solid;
+    display: inline-block;
+    font-size: 24px;
+}
+.footer ul li {
+    list-style: outside none none;
+    padding: 5px 0;
+}
+.footer a {
+    color: #fff;
+    font-weight: bold;
+}
+.footer .input-group {
+    display: inline-block;
+    float: none;
+    margin: 0;
+    width: 49.5%;
+}
+.footer .form-control {
+    border: medium none;
+    box-shadow: none;
+}
+.footer .contact-form > textarea {
+    border: medium none;
+    box-shadow: none;
+    width: 100%;
+}
+.footer .btn.pet-bid-btn {
+  background: #2146a4 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+}
+.footer .btn.pet-bid-btn:hover {
+  background: #2146B4 none repeat scroll 0 0;
+  color: #fff
+}
+
+section#header-bottom {
+    margin-bottom: 50px;
+}
+footer.footer {
+    margin-top: 50px;
+}
+
+.not_found {
+    margin: 50px 0;
+    padding: 20px;
+    text-align: center;
+}
+.modal.fade.in {
+  display: block;
+}
+.modal-open{
+    padding-right: 17px;
+}
+
+
+.modal-backdrop.fade.in {
+    display: none;
+}
+body.modal-open {
+    position: relative;
+}
+body.modal-open::after {
+  background: #000 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+button.btn.btn-default.close {
+    background: #f2dede none repeat scroll 0 0;
+    border-radius: 0;
+    color: #222;
+    font-size: 16px;
+    opacity: 1;
+    padding: 5px;
+}
+
+.btn.btn-primary.dropdown-toggle > img {
+    margin: 0 5px;
+    width: 20px;
+}
+.sign-in-form .dropdown-menu {
+    float: none;
+    left: auto;
+    right: 0;
+    text-align: right;
+}
+
+.pet_bids.col-md-12 > a {
+    background: #49c4a0 none repeat scroll 0 0;
+    color: #fff;
+    display: inline-block;
+    padding: 10px 20px;
+} 
+
+ .form-control[type=file]{
+    padding: 0
+ }
+ .footer iframe {
+  height: auto;
+  width: 100%;
+}
+.subject_in{
+    width: 100%!important;
+    float: none!important;
+}
+
+
+.col-md-3.left_sidebar {
+    margin: 0;
+    padding: 0;
+}
+.col-md-9.right_content {
+    margin: 0;
+    padding: 0;
+}
+.ucontent h4 {
+    margin: 0;
+}
+.ucontent {
+    background: #f8f8f8 none repeat scroll 0 0;
+    padding: 15px;
+}
+.umenu {
+    background: #f8f8f8 none repeat scroll 0 0;
+    
+    padding: 15px;
+}
+.umenu > ul {
+    list-style: outside none none;
+}
+.page-title > h2 {
+    color: #444;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.umenu a {
+    border-bottom: 1px solid #eee;
+    display: block;
+    padding: 10px;
+}
+.umenu a:hover,.active_umenu {
+    background: #eee none repeat scroll 0 0;
+}
+.umenu li:last-child a {
+    border-bottom: 0 none;
+}
+.umenu i {
+    margin-right: 20px;
+}
+
+.ucontent h4 {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+.sidemenu_wrapper  {
+  background: #f7f7f7 none repeat scroll 0 0; 
+  border-right: 1px solid #ddd;
+}
+.sidemenu_wrapper hr {
+  background: #000 none repeat scroll 0 0;
+  border-color: #ddd;
+  border-width: 2px;
+  color: #000;
+}
+
+.col-md-2.user_image img {
+    height: auto;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+.bidder_details .btn.btn-primary {
+    margin: 10px 0;
+}
+
+.ccontact-form .input-group.col-lg-6 {
+    float: left;
+    padding: 10px;
+}
+.ccontact-form .input-group {
+    padding: 10px;
+}

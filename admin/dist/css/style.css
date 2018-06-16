@@ -1,0 +1,11 @@
+.activepage > a {
+  color: #fff !important;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+ .form-control[type=file]{
+    padding: 0
+ }
