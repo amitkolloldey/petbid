@@ -2,9 +2,8 @@
 <br>
 Bidding Script In Raw PHP.
 <br>
-
-[![Pet Bid Overview](https://i.imgur.com/FdApiqj.png)](https://www.youtube
-.com/watch?v=ap6BPn3R6Z8)
+<strong>Project Overview</strong>
+[![Pet Bid Overview](https://i.imgur.com/FdApiqj.png)](https://www.youtube.com/watch?v=ap6BPn3R6Z8)
 <br>
 <br>
 <br>
