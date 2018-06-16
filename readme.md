@@ -3,7 +3,7 @@
 Bidding Script In Raw PHP.
 <br>
 <strong>Project Overview</strong>
-[![Pet Bid Overview](https://i.imgur.com/FdApiqj.png)](https://www.youtube.com/watch?v=ap6BPn3R6Z8)
+<a href="https://www.youtube.com/watch?v=ap6BPn3R6Z8"><img src="https://i.imgur.com/M5ynIQX.png"/></a>
 <br>
 <br>
 <br>
