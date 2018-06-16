@@ -2,7 +2,9 @@
 <br>
 Bidding Script In Raw PHP.
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ap6BPn3R6Z8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+[![Pet Bid Overview](https://i.imgur.com/FdApiqj.png)](https://www.youtube
+.com/watch?v=ap6BPn3R6Z8)
 <br>
 <br>
 <br>
